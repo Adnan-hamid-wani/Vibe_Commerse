@@ -1,0 +1,15 @@
+/* Simple styles for demo - feel free to replace with Tailwind */
+body { font-family: Arial, sans-serif; margin:0; padding:0; }
+.app { max-width: 1100px; margin: 0 auto; padding: 20px; }
+header { text-align:center; margin-bottom: 20px; }
+main { display: grid; grid-template-columns: 2fr 1fr; gap: 20px; align-items:start; }
+.product-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; }
+.card { border: 1px solid #ddd; border-radius:8px; padding:12px; }
+.cart { border:1px solid #ddd; padding:12px; border-radius:8px; }
+.modal { position: fixed; inset:0; display:flex; align-items:center; justify-content:center; background: rgba(0,0,0,0.4); }
+.modal-content { background:white; padding:20px; border-radius:8px; width: 90%; max-width:420px; }
+button { cursor:pointer; padding:8px 12px; margin-top:8px; }
+.total { margin-top:12px; font-weight:bold; }
+@media (max-width: 800px){
+  main { grid-template-columns: 1fr; }
+}
