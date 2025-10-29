@@ -6,7 +6,7 @@ No real payments are integrated.
 
 ---
 
-## 🚀 Tech Stack
+##  Tech Stack
 
 | Layer | Technology |
 |--------|-------------|
@@ -81,7 +81,7 @@ Copy code
 ```bash
 git clone https://github.com/<your-username>/vibe-commerce.git
 cd vibe-commerce
-2. Setup backend
+### 2. Setup backend
 bash
 Copy code
 cd backend
@@ -96,17 +96,17 @@ PORT=5000
 bash
 Copy code
 npm install
-4. Seed mock products
+### 4. Seed mock products
 bash
 Copy code
 npm run seed
-5. Run backend server
+### 5. Run backend server
 bash
 Copy code
 npm run dev
 Server runs at: http://localhost:5000
 
-6. Setup frontend
+### 6. Setup frontend
 bash
 Copy code
 cd ../frontend
@@ -146,3 +146,21 @@ Copy code
   "total": 139.98,
   "timestamp": "2025-10-29T07:24:12.000Z"
 }
+```
+---
+
+## Screenshots
+
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ed08208a-28c6-4056-9abf-fb77c648cb50" />
+
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/75bed6cb-0496-4b59-8a34-d8eba8c2d8a4" />
+
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a3cbc573-ff4b-49d8-906a-97c133b23149" />
+
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/80e883c1-1ca4-4543-b1c1-34b2263f85cf" />
+
+
